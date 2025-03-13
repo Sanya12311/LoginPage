@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #001f3f, #004080);
+    color: white;
+}
+
+/* Registration Page */
+.container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.left-section {
+    flex: 1;
+    background: url('circle-design.png') no-repeat center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 80%;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 15px;
+}
+
+.input-group input {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login Page */
+.login-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.outer_circle {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    background-color: #92a8bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid_circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: #759cc3;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: #5c8dbd;
+    margin: 50px;
+}
+.rect {
+    position: absolute;
+    top: 0;
+    left: 23%;
+    background-color: #ffcc00;
+    width: 40px;
+    height: 100px;
+}
